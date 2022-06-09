@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Kapture%202022-06-09%20at%2014.12.36.gif)
 
 ### Links
 

@@ -1,0 +1,84 @@
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:hover {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url(./images/icon-menu.svg);
+}
+
+.offcanvas {
+  max-width: 65%;
+}
+
+.offcanvas-header {
+  justify-content: flex-end;
+  padding: 1.5rem;
+}
+
+.btn-close {
+  background: url(./images/icon-close-menu.svg) center/1.5em auto no-repeat;
+  opacity: 1;
+}
+
+img.nav-toggle-arrow {
+  margin-left: 10px;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.dropdown-image {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropdown-item, .nav-button {
+  color: #737373;
+}
+
+.nav-button:first-of-type{
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.container {
+  height: 90vh;
+}
+
+.container img {
+  width: 100%;
+}
+
+.content .btn {
+  padding: .5em 1.5em;
+}
+
+.companies {
+  margin-top: 3em;
+}
+
+h1 {
+  font-size: calc(1.75rem + 1.5vw);
+  font-weight: 700;
+}
+
+@media screen and (width < 700px) {
+  .content {
+    text-align: center;
+  }
+}
